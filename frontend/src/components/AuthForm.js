@@ -13,7 +13,7 @@ const AuthForm = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const googleClientId = "79843472734-cl1a0gjvq5179v94hdva4g2re507sjd6.apps.googleusercontent.com";
+
 
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const passwordPattern =
